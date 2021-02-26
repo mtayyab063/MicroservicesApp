@@ -32,17 +32,13 @@ namespace Catalog.API
         {
 
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Catalog.API", Version = "v1" });
-            });
 
             services.Configure<CatalogDatabaseSettings>(Configuration.GetSection(nameof(CatalogDatabaseSettings)));
             services.AddSingleton<ICatalogDatabaseSettings>(sp => sp.GetRequiredService<IOptions<CatalogDatabaseSettings>>().Value);
             //Above line states that whenever ICatalogDatabaseSettings is injected in contructor, bring the values for it from CatalogDatabaseSettings 
-            //as in above line it is mentioned that you need to read the CatalogDatabaseSettings values from CatalogDatabaseSettings section in appsettings
+            //as in above line it is mentioned that we need to read the CatalogDatabaseSettings values from CatalogDatabaseSettings section in appsettings
 
-            //each time new object is created
+            //each time new object is created -  we have to inject in Dependency Injection Container
             services.AddTransient<ICatalogContext, CatalogContext>();
             services.AddTransient<IProductRepository, ProductRepository>();
 

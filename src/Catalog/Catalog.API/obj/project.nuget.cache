@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qjSrDVJdOkuDr2qQFTT8UO2SabQMKGOd0VTAh1lcQK5htkcPYLY7Dgtjx/U1NIBs+xZqU6CY/YWpDyD5khod0Q==",
+  "dgSpecHash": "Co98Dm2DG9n/QlU6ENdf3LgST8dQfl7OyWRX00fo4orfrxyQcERyRA69nzDstrRY+HrS/8sh4V6IhUX/PAjYFw==",
   "success": true,
   "projectFilePath": "D:\\Learning\\Microservices\\MicroservicesApp\\MicroservicesApp\\src\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\t-Tayyab\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\t-Tayyab\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\t-Tayyab\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\t-Tayyab\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\t-Tayyab\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\t-Tayyab\\.nuget\\packages\\mongodb.bson\\2.11.6\\mongodb.bson.2.11.6.nupkg.sha512",
     "C:\\Users\\t-Tayyab\\.nuget\\packages\\mongodb.driver\\2.11.6\\mongodb.driver.2.11.6.nupkg.sha512",
