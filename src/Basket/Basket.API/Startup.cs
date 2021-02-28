@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using StackExchange.Redis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,12 @@ namespace Basket.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //when we are creating connectionMultiplexer object in dependency injection, we want this object to read the connection strting from appsettings
+            services.AddSingleton<ConnectionMultiplexer>(sp =>
+            {
+                var configurations = ConfigurationOptions.Parse(Configuration.GetConnectionString("Redis"), true);
+                return ConnectionMultiplexer.Connect(configurations);
+            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
