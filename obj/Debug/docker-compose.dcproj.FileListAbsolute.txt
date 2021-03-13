@@ -16,3 +16,10 @@ D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\Catalog.AP
 D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\Basket.API.exe
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\Basket.API.dll
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\StackExchange.Redis.dll
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\Newtonsoft.Json.dll
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\Pipelines.Sockets.Unofficial.dll
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\Basket.API.pdb

@@ -10,6 +10,7 @@ namespace Basket.API.Data
     public class BasketContext : IBasketContext
     {
         private readonly ConnectionMultiplexer _redisConnection;
+        public IDatabase Redis { get; }
 
         public BasketContext(ConnectionMultiplexer redisConnection)
         {
@@ -17,6 +18,5 @@ namespace Basket.API.Data
             Redis = _redisConnection.GetDatabase();
         }
 
-        public IDatabase Redis { get; }
     }
 }
