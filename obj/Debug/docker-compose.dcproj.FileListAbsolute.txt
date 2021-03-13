@@ -23,3 +23,6 @@ D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\Newtonsoft
 D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\Pipelines.Sockets.Unofficial.dll
 D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\System.Diagnostics.PerformanceCounter.dll
 D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\Basket.API.pdb
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\EventBusRabbitMQ.dll
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\RabbitMQ.Client.dll
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\bin\Debug\EventBusRabbitMQ.pdb
