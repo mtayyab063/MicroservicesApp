@@ -38,3 +38,5 @@ D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\src\Basket\Basket.AP
 D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\src\Basket\Basket.API\bin\Debug\net5.0\RabbitMQ.Client.dll
 D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\src\Basket\Basket.API\bin\Debug\net5.0\EventBusRabbitMQ.dll
 D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\src\Basket\Basket.API\bin\Debug\net5.0\EventBusRabbitMQ.pdb
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\src\Basket\Basket.API\bin\Debug\net5.0\AutoMapper.dll
+D:\Learning\Microservices\MicroservicesApp\MicroservicesApp\src\Basket\Basket.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
